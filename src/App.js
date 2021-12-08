@@ -1,6 +1,9 @@
 function App() {
   return (
-    <div><h1>Hello, world!</h1></div>
+    <div>
+      <label htmlFor="bar">bar</label>
+      <input type="text" onClick={() => { console.log("I'm click") }} />
+    </div>
   );
 }
 
